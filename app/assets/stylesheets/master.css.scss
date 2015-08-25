@@ -25,6 +25,7 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
+  padding: 0;
   color: white;
 }
 
@@ -50,7 +51,25 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 body {
-  background: url('bg.jpg');
+  padding-top: 40px;
+  //background: url('bg.jpg') no-repeat center fixed;
+  background: url('bg.jpg') center fixed;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.booyah-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+
+.booyah-box h2, .booyah-box h1 {
+    margin: 10px;
+  }
 }
 
