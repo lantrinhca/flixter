@@ -28,4 +28,7 @@ Flixter::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  # Allow usage on Vagrant
+  BetterErrors::Middleware.allow_ip! "10.0.2.2" if defined?(BetterErrors)
 end
