@@ -181,6 +181,5 @@
   </component>
   <component name="RailwaysModuleConfiguration">
     <option name="environment" value="development" />
-    <option name="autoUpdate" value="true" />
   </component>
 </module>
