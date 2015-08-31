@@ -11,6 +11,9 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.3.0'
 gem 'devise'
 gem 'simple_form'
+gem 'carrierwave'
+gem 'figaro', '>= 1.0.0'
+gem 'fog', '~> 1.3.1'
 # gem 'friendly_id'
 
 # Use Uglifier as compressor for JavaScript assets
