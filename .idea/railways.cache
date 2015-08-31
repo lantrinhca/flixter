@@ -17,6 +17,7 @@
                          root GET    /                                                      static_pages#index
                       courses GET    /courses(.:format)                                     courses#index
                        course GET    /courses/:id(.:format)                                 courses#show
+                       lesson GET    /lessons/:id(.:format)                                 lessons#show
    instructor_section_lessons POST   /instructor/sections/:section_id/lessons(.:format)     instructor/lessons#create
 new_instructor_section_lesson GET    /instructor/sections/:section_id/lessons/new(.:format) instructor/lessons#new
    instructor_course_sections POST   /instructor/courses/:course_id/sections(.:format)      instructor/sections#create
