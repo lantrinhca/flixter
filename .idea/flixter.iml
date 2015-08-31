@@ -170,7 +170,6 @@
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.15, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v2.5.3, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.44, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.7.1, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.3, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
