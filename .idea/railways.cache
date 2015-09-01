@@ -15,6 +15,7 @@
                               PUT    /users(.:format)                                       devise/registrations#update
                               DELETE /users(.:format)                                       devise/registrations#destroy
                          root GET    /                                                      static_pages#index
+           course_enrollments POST   /courses/:course_id/enrollments(.:format)              enrollments#create
                       courses GET    /courses(.:format)                                     courses#index
                        course GET    /courses/:id(.:format)                                 courses#show
                        lesson GET    /lessons/:id(.:format)                                 lessons#show
