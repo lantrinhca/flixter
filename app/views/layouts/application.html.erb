@@ -63,13 +63,11 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-
-
     <% if notice.present? %>
-        <p class="alert alert-info"><%= notice %></p>
+      <p class="alert alert-info alert-fixed"><%= notice %></p>
     <% end %>
     <% if alert.present? %>
-        <p class="alert alert-danger"><%= alert %></p>
+		  <p class="alert alert-danger alert-fixed"><%= alert %></p>
     <% end %>
 
     <%= yield %>
@@ -77,7 +75,7 @@
 
   <br class="clr" />
 
-  <div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+  <div class="navbar navbar-default navbar-fixed" id="footer">
     <div class="container">
       <b>Teachers</b>
       <br>

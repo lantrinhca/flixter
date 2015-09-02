@@ -22,7 +22,7 @@ class LessonsController < ApplicationController
 		# end
 
 		if !current_lesson.section.course.user.enrolled_in?(current_course)
-			redirect_to course_path(current_course), :alert => 'You are not registered for the course'
+			redirect_to course_path(current_course), :alert => 'You are not enrolled for the course'
 		end
 	end
 
