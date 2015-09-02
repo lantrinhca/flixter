@@ -131,9 +131,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord-deprecated_finders (v1.0.4, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.0.1, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.2, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v5.2.1.2, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.10, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.3.5, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.3, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, Remote:ruby-2.0.0-p353 (1)) [gem]" level="application" />
