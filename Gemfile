@@ -17,6 +17,7 @@ gem 'figaro', '>= 1.0.0'
 gem 'mini_magick'
 gem 'carrierwave-aws'
 gem 'stripe'
+gem 'ranked-model'
 # gem 'friendly_id'
 
 # Use Uglifier as compressor for JavaScript assets

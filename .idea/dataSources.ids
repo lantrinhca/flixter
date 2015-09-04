@@ -20614,7 +20614,9 @@
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
       <column name="video" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="row_order" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <primary-key name="lessons_pkey" columns="id"/>
+      <index name="index_lessons_on_row_order" unique="false" columns="row_order"/>
       <index name="index_lessons_on_section_id" unique="false" columns="section_id"/>
     </table>
     <table name="lessons_id_seq" schema="public" catalog="flixter_development" type="SEQUENCE">
