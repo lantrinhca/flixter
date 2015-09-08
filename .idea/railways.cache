@@ -21,6 +21,8 @@
                        lesson GET    /lessons/:id(.:format)                                 lessons#show
             instructor_lesson PATCH  /instructor/lessons/:id(.:format)                      instructor/lessons#update
                               PUT    /instructor/lessons/:id(.:format)                      instructor/lessons#update
+           instructor_section PATCH  /instructor/sections/:id(.:format)                     instructor/sections#update
+                              PUT    /instructor/sections/:id(.:format)                     instructor/sections#update
    instructor_section_lessons POST   /instructor/sections/:section_id/lessons(.:format)     instructor/lessons#create
 new_instructor_section_lesson GET    /instructor/sections/:section_id/lessons/new(.:format) instructor/lessons#new
    instructor_course_sections POST   /instructor/courses/:course_id/sections(.:format)      instructor/sections#create

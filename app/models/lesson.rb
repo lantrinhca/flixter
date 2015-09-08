@@ -5,7 +5,7 @@ class Lesson < ActiveRecord::Base
 	include RankedModel
 	ranks :row_order, :with_same => :section_id
 
-	# def to_param
-	# 	"#{id} #{title}".parameterize
-	# end
+	def to_param
+		"#{id} #{title}".parameterize
+	end
 end
