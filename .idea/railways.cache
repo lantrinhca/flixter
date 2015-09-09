@@ -19,6 +19,7 @@
                       courses GET    /courses(.:format)                                     courses#index
                        course GET    /courses/:id(.:format)                                 courses#show
                        lesson GET    /lessons/:id(.:format)                                 lessons#show
+                    dashboard GET    /dashboard(.:format)                                   dashboards#show
             instructor_lesson PATCH  /instructor/lessons/:id(.:format)                      instructor/lessons#update
                               PUT    /instructor/lessons/:id(.:format)                      instructor/lessons#update
            instructor_section PATCH  /instructor/sections/:id(.:format)                     instructor/sections#update

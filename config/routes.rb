@@ -7,6 +7,7 @@ Flixter::Application.routes.draw do
   end
 
   resources :lessons, :only => [:show]
+  resource :dashboard, :only => [:show]
 
 	namespace :instructor do
 		resources :lessons, :only => [:update]
@@ -19,7 +20,9 @@ Flixter::Application.routes.draw do
     resources :courses, :only => [:new, :create, :show] do
       resources :sections, :only => [:new, :create]
     end
-  end
+	end
+
+
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
