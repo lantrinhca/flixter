@@ -18,7 +18,7 @@ Flixter::Application.routes.draw do
 		end
 
     resources :courses, :only => [:new, :create, :show] do
-      resources :sections, :only => [:new, :create]
+      resources :sections, :only => [:create]
     end
 	end
 
