@@ -120,19 +120,25 @@ body {
   padding: 20px;
 }
 
-#footer {
+//#footer {
+//  height: 100px;       //$footer-height;
+//  color:white;
+//  background-color: rgba(36,32,33,0.9);
+//  font-family: "Helvetica Neue",Helvetica;
+//  padding:10px 0px;
+//  font-weight:100;
+
   //border: 1px solid;
   //border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   //padding: 20px;
-
   //position:fixed;
-  left:0px;
-  bottom:0px;
-  height:60px;
-  width:100%;
-  border-radius:0px;
+  //left:0px;
+  //bottom:0px;
+  //height:60px;
+  //width:100%;
+  //border-radius:0px;
   //background-color: #1995dc;
-}
+//}
 
 //.course {
 //  display: inline-block;
@@ -175,6 +181,8 @@ ul .header .glyphicon {
 .lessons li p {
   margin: 0;
 }
+
+
 
 
 
