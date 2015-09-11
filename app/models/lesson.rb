@@ -5,6 +5,17 @@ class Lesson < ActiveRecord::Base
 	include RankedModel
 	ranks :row_order, :with_same => :section_id
 
+	def next_lesson
+		# look for first lesson greater than self row_order
+		lesson = section.lessons.where("row_order > ?", self.row_order).rank(:row_order).first
+
+		if lesson.blank? && section.next_section
+			return section.next_section.lessons.rank(:row_order).first
+		end
+
+		return lesson
+	end
+
 	def to_param
 		"#{id} #{title}".parameterize
 	end
