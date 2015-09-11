@@ -20,6 +20,7 @@ gem 'stripe'
 gem 'ranked-model'
 gem 'jquery-ui-rails'
 gem 'animatecss'
+# gem 'twitter-bootstrap-rails'
 
 # gem 'friendly_id'
 
